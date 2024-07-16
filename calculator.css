@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(88, 255, 199);
+    background-image:url(1_WRsTJrsS6SwGZ7CX3gjMkg.jpeg);background-repeat: no-repeat;
+}
+.box{
+    background-color: #3d4543;
+    height: 300px;
+    width: 270px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+.display{
+    background-color: #222;
+    width: 220px;
+    position: relative;
+    left: 2S5px;
+    top: 20px;
+    height: 40px;
+}
+.display input{
+    position: relative;
+    left: 2px;
+    top: 2px;
+    height: 35px;
+    color: black;
+    background-color: rgb(185, 233, 190);
+    font-size: 21px;
+    text-align: right;
+}
+.keys{
+    position: relative;
+    top: 15px;
+}
+.button{
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 17px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+}
+.button.gray {
+    color: rgb(40, 207, 76);
+    font-color:black;
+    background-color: #6f6f6f;
+    border-bottom: black 2px solid;
+    border-top: 2px #6f6f6f solid;
+}
+.title:hover{
+    color: #fff;
+}
+.title{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 5px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-family: "Cookie",cursive;
+}
+.button.pink {
+    color: black;
+    background-color: rgb(207, 23, 115);
+    border-bottom: black 2px solid;
+}
+.button.black{
+    color: black;
+    background-color: 303030;
+    border-bottom: black 2px solid;
+    border-top: 2px 303030 solid;
+    font-weight: bold;
+}
+.button.orange{
+    color: black;
+    background-color: #ff9933;
+    border-bottom: black 2px solid;
+    border-top: 2px ff9933 solid;
+}
+.gray.active{
+    border-top: black 2px solid;
+    border-bottom: 2px #6f6f6f solid;
+}
+.pink:active{
+    border-top: black 2px solid;
+    border-bottom: #ff4561 2px solid;
+}
+.black:active{
+    border-top: black 2px solid;
+    border-bottom: #303030 2px solid;
+}
+.orange:active{
+    border-top: black 2px solid;
+    border-bottom: #ff9933 2px solid;
+}
+p{
+    line-height: 10px;
+}
